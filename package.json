@@ -1,0 +1,19 @@
+{
+  "name": "securex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "SETUP": "cd SETUP && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run SETUP\"\"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "express": "^5.1.0"
+  }
+}
